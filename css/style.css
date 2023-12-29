@@ -5,3 +5,11 @@ body {
     color: #163152;
     background-color: #fdfdff;
 }
+
+.site-navigation-item a {
+    color: #163152;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
