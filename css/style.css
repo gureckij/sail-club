@@ -56,3 +56,14 @@ body {
     line-height: 22px;
     text-decoration: none;
 }
+
+.policy,
+.copyright {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.policy a {
+    color: #163152;
+    text-decoration: none;
+}
