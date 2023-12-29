@@ -22,7 +22,7 @@ body {
     text-transform: uppercase;
 }
 
-.blog-article time {
+.blog-article p:first-child {
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
