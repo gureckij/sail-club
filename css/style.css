@@ -73,3 +73,10 @@ body {
     line-height: 18px;
     text-transform: uppercase;
 }
+
+.footer-navigation-item a {
+    color: #163152;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+}
