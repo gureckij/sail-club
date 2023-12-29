@@ -67,3 +67,9 @@ body {
     color: #163152;
     text-decoration: none;
 }
+
+.footer-navigatiom-topic h2 {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
