@@ -39,7 +39,7 @@ body {
     text-underline-offset: 15px;
 }
 
-.figcaption-news {
+.photo-news figcaption {
     font-size: 16px;
     margin: 0;
     color: #8693a4;
@@ -57,45 +57,47 @@ body {
     text-align: center;
 }
 
-.news h3 {
+.post h3 {
     font-size: 22px;
     line-height: 26px;
 }
 
-.news p {
+.post p {
     font-size: 18px;
     line-height: 26px;
 }
 
-.news h4 {
+.post h4 {
     font-size: 20px;
     line-height: 26px;
 }
 
-.participant-list li {
+.post ins {
+    text-decoration: none;
+}
+
+.post ul {
     font-size: 18px;
     line-height: 26px;
 }
 
-.news-quote {
-    margin-left: 0;
-    padding-left: 18px;
-    border-left: solid 2px #00c6bd;
-}
-
-.news-quote p {
+.post blockquote {
     font-size: 26px;
     font-weight: 700;
     line-height: 36px;
 }
 
-.author-name {
+.post-info a {
+    color: #163152;
     font-weight: 700;
+    font-size: 16px;
     line-height: 19px;
+    text-decoration: none;
 }
 
-.publication-date {
+.post-info time {
     color: #8693a4;
+    font-size: 16px;
     line-height: 19px;
 }
 
