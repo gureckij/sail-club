@@ -39,6 +39,66 @@ body {
     text-underline-offset: 15px;
 }
 
+.figcaption-news {
+    font-size: 16px;
+    margin: 0;
+    color: #8693a4;
+    line-height: 19px;
+}
+
+.news h2 {
+    font-size: 24px;
+    line-height: 34px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #00c6bd;
+    text-underline-position: under;
+    text-underline-offset: 15px;
+    text-align: center;
+}
+
+.news h3 {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.news p {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.news h4 {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.participant-list li {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.news-quote {
+    margin-left: 0;
+    padding-left: 18px;
+    border-left: solid 2px #00c6bd;
+}
+
+.news-quote p {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.author-name {
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.publication-date {
+    color: #8693a4;
+    line-height: 19px;
+}
+
 .contact-item,
 .contact-item h3 {
     font-size: 16px;
