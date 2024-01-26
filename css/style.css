@@ -193,6 +193,10 @@ body {
     line-height: 19px;
 }
 
+.gallery {
+    margin-bottom: 120px;
+}
+
 .gallery h2 {
     text-align: center;
     font-size: 24px;
@@ -201,6 +205,32 @@ body {
     text-decoration-thickness: 2px;
     text-decoration-color: #00c6bd;
     text-underline-offset: 15px;
+    margin-top: 0;
+    margin-bottom: 55px;
+}
+
+.gallery-slider {
+    display: flex;
+}
+
+.gallery .active-photo {
+    margin-right: 30px;
+    width: 970px;
+}
+
+.gallery .preview-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 170px;
+}
+
+.gallery .preview-list li {
+    margin-bottom: 30px;
+}
+
+.gallery .preview-list li:last-child {
+    margin-bottom: 0;
 }
 
 .contacts {
