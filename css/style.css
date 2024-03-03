@@ -201,6 +201,29 @@ body {
     margin-bottom: 0;
 }
 
+.preview-list a {
+    position: relative;
+    display: block;
+}
+
+.preview-list a::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(253, 253, 255, 0.5);
+}
+
+.preview-list img {
+    display: block;
+}
+
+.preview-list a.active-item::before {
+    background-color: transparent;
+}
+
 .news {
     width: 770px;
     margin: 0 auto;
