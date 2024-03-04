@@ -467,6 +467,9 @@ contacts-img {
 
 .main-footer .logo {
     margin-top: 0;
+    margin-bottom: 30px;
+    width: 100px;
+    height: 106px;
 }
 
 .policy,
@@ -481,7 +484,7 @@ contacts-img {
 }
 
 .footer-navigation-topics {
-    width: 900px;
+    width: 870px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -489,8 +492,13 @@ contacts-img {
     justify-content: space-between;
 }
 
+.footer-navigatiom-topic {
+    width: 165px;
+}
+
 .footer-navigatiom-topic h2 {
     margin-top: 0;
+    margin-bottom: 20px;
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
@@ -503,7 +511,11 @@ contacts-img {
 }
 
 .footer-navigation-item {
-    width: 165px;
+    margin-bottom: 12px;
+}
+
+.footer-navigation-item:last-child {
+    margin-bottom: 0;
 }
 
 .footer-navigation-item a {
@@ -511,4 +523,12 @@ contacts-img {
     font-size: 14px;
     line-height: 16px;
     text-decoration: none;
+}
+
+.footer-navigation-item a:hover {
+    color: rgba(22, 49, 82, 0.5);
+}
+
+.footer-navigation-item a:active {
+    color: rgba(22, 49, 82, 0.3);
 }
