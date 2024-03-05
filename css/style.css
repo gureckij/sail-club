@@ -187,12 +187,14 @@ body {
 
 .card-title {
     margin: 0;
+    margin-bottom: 18px;
     font-size: 20px;
     line-height: 23px;
 }
 
 .card-description {
     margin: 0;
+    margin-bottom: 15px;
     line-height: 24px;
 }
 
