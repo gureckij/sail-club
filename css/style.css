@@ -180,6 +180,11 @@ body {
     background: #fdfdff;
 }
 
+.card img {
+    display: block;
+    margin-bottom: 21px;
+}
+
 .card-title {
     margin: 0;
     font-size: 20px;
