@@ -200,7 +200,12 @@ body {
 
 .card-features {
     margin: 0;
+    margin-bottom: 29px;
     padding: 0;
+}
+
+.card-features li {
+    margin-bottom: 4px;
 }
 
 .card-price {
