@@ -181,15 +181,23 @@ body {
 }
 
 .card-title {
+    margin: 0;
     font-size: 20px;
     line-height: 23px;
 }
 
 .card-description {
+    margin: 0;
     line-height: 24px;
 }
 
+.card-features {
+    margin: 0;
+    padding: 0;
+}
+
 .card-price {
+    margin: 0;
     font-size: 18px;
     line-height: 21px;
     font-weight: bold;
